@@ -10,6 +10,8 @@
 
 ## Imagem do Projeto
 
+![captura de tela do projeto Foodmart no Orange](images/foodmart2000-orange-prtsc.png)
+
 ## Arquivo do Projeto
 
 # Projeto de Composição de Componentes para Recomendação
