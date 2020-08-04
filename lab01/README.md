@@ -2,9 +2,25 @@
 
 ## Imagem do Projeto
 
+![captura de tela do projeto Google Playstore no Orange](images/google-playstore-prtsc.png)
+
 ## Arquivo do Projeto
 
+Download do projeto Google Playstore no Orange: [download](orange/google-playstore.ows)
+
 ## Gráfico(s) de Análise
+
+![gráfico de categorias do projeto Google Playstore](images/grafico-categorias-google-playstore.png)
+
+Distribuição de categorias entre os apps listados
+
+![gráfico de apps gratuitos do projeto Google Playstore](images/grafico-apps-gratuitos-google-playstore.png)
+
+Apps gratuitos avaliados mais vezes e com as mehores notas
+
+![gráfico de apps pagos do projeto Google Playstore](images/grafico-apps-pagos-google-playstore.png)
+
+Apps pagos avaliados mais vezes e com as melhores notas
 
 # Projeto Orange / Regras de Associação para Foodmart
 
