@@ -26,7 +26,7 @@ Apps pagos avaliados mais vezes e com as melhores notas
 
 ## Imagem do Projeto
 
-![captura de tela do projeto Foodmart no Orange](images/foodmart2000-orange-prtsc.png)
+![captura de tela do projeto Foodmart no Orange](images/foodmart-prtsc.png)
 
 ## Arquivo do Projeto
 
