@@ -34,6 +34,8 @@ Download do projeto Foodmart no Orange: [download](orange/foodmart2000-associati
 
 # Projeto de Composição de Componentes para Recomendação
 
+![solução para a tarefa composição de componentes para recomendação](images/componentes-recomendacao.png)
+
 # Projeto de Composição de Componentes para Pedido
 
 ## Diagrama de Componentes
