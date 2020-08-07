@@ -40,4 +40,8 @@ Download do projeto Foodmart no Orange: [download](orange/foodmart2000-associati
 
 ## Diagrama de Componentes
 
+![solução para a tarefa composição de componentes para pedido - diagrama de componentes](images/componentes-pedido-componentes.png)
+
 ## Diagrama de Interfaces
+
+![solução para a tarefa composição de componentes para pedido - diagrama de interfaces](images/componentes-pedido-interfaces.png)
