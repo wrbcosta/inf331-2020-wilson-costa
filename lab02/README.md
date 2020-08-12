@@ -1,6 +1,6 @@
 # Tarefa sobre catálogo de componentes
 
-Download do arquivo do notebook com a resolução das seis tarefas: 
+Download do arquivo do notebook com a resolução das seis tarefas: [download](notebook/INF331-Notebook-Lab02-Wilson-Costa.ipynb)
 
 # Tarefa Web Components 1
 
