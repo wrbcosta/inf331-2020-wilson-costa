@@ -23,3 +23,5 @@ Tela 4 - compra de um dos produtos efetiva
 ![Captura de tela 05](images/app_blocks.png)
 
 Tela 5 - diagrama de blocos do aplicativo
+
+Download do aplicativo exportado a partir do MIT App Inventor em formato .aia: [download](app/inf331_lab3_tarefa3_wilson_costa.aia)
