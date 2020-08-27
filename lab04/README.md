@@ -17,7 +17,7 @@
 * **Título do serviço**: `getWeatherDisplay`
 * **Breve descrição**:
   > API que retorna dados sobre o clima , em um dado período de tempo, em uma estação geográfica específica. Os dados sobre o clima incluem, por exemplo, temperatura, velocidade e direção do vento, umidade e pressão.
-* **URL completa da requisição**: `https://any-api.com/oceandrivers_com/oceandrivers_com/console/ODWeather/getWeatherDisplay`
+* **URL completa da requisição**: `https://any-api.com:8443/http://api.oceandrivers.com/v1.0/getWeatherDisplay/cnarenal/?period=latestday`
 * **Cabeçalho HTTP da chamada**:
 ~~~http
 :authority: any-api.com:8443
