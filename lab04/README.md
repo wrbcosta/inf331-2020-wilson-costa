@@ -317,3 +317,91 @@ x-request-url: http://api.oceandrivers.com/v1.0/getWeatherDisplay/cnarenal/?peri
   "ACTIVE": "ON"
 }
 ~~~
+
+### Serviço `College Football Data`
+
+* **Título do serviço**: `getTeamMatchup`
+* **Breve descrição**:
+  > Retorna dados sobre jogos entre dois times de futebol americano universitário, ocorridos em um período definido por um ano mínimo e um ano máximo.
+* **URL completa da requisição**: `https://any-api.com:8443/https://api.collegefootballdata.com/teams/matchup?team1=Florida%20Atlantic&team2=Florida%20International&minYear=2018&maxYear=2019`
+* **Cabeçalho HTTP da chamada**:
+~~~http
+:authority: any-api.com:8443
+:method: GET
+:path: /https://api.collegefootballdata.com/teams/matchup?team1=Florida%20Atlantic&team2=Florida%20International&minYear=2018&maxYear=2019
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+if-none-match: W/"27e-BJ4Ul4Ck2gW4PbEz9Dr9kwgLod4"
+origin: https://any-api.com
+referer: https://any-api.com/collegefootballdata_com/collegefootballdata_com/console/teams/getTeamMatchup
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-site
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+~~~
+* **Cabeçalho HTTP da resposta**:
+~~~http
+access-control-allow-origin: *
+access-control-expose-headers: server,date,connection,x-dns-prefetch-control,x-frame-options,strict-transport-security,x-download-options,x-content-type-options,x-xss-protection,access-control-allow-origin,etag,x-final-url
+cf-cache-status: DYNAMIC
+cf-ray: 5c9e01a1eb60d020-GRU
+cf-request-id: 04d69f59340000d02090092200000001
+content-encoding: br
+content-type: application/json; charset=utf-8
+date: Fri, 28 Aug 2020 12:23:57 GMT
+etag: W/"27e-BJ4Ul4Ck2gW4PbEz9Dr9kwgLod4"
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+set-cookie: __cfduid=d811b7715b796ae6f442b23b2eb9307a11598617436; expires=Sun, 27-Sep-20 12:23:56 GMT; path=/; domain=.any-api.com; HttpOnly; SameSite=Lax
+status: 304
+strict-transport-security: max-age=15552000; includeSubDomains
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-final-url: https://api.collegefootballdata.com/teams/matchup?team1=Florida%20Atlantic&team2=Florida%20International&minYear=2018&maxYear=2019
+x-frame-options: SAMEORIGIN
+x-request-url: https://api.collegefootballdata.com/teams/matchup?team1=Florida%20Atlantic&team2=Florida%20International&minYear=2018&maxYear=2019
+x-xss-protection: 1; mode=block
+~~~
+* **Conteúdo da resposta**:
+~~~json
+{
+  "team1": "Florida Atlantic",
+  "team2": "Florida International",
+  "startYear": "2018",
+  "endYear": "2019",
+  "team1Wins": 2,
+  "team2Wins": 0,
+  "ties": 0,
+  "games": [
+    {
+      "season": 2018,
+      "week": 10,
+      "seasonType": "regular",
+      "date": "2018-11-03T23:30:00.000Z",
+      "neutralSite": false,
+      "venue": "FIU Stadium",
+      "homeTeam": "Florida International",
+      "homeScore": 14,
+      "awayTeam": "Florida Atlantic",
+      "awayScore": 49,
+      "winner": "Florida Atlantic"
+    },
+    {
+      "season": 2019,
+      "week": 11,
+      "seasonType": "regular",
+      "date": "2019-11-09T23:00:00.000Z",
+      "neutralSite": false,
+      "venue": "FAU Stadium",
+      "homeTeam": "Florida Atlantic",
+      "homeScore": 37,
+      "awayTeam": "Florida International",
+      "awayScore": 7,
+      "winner": "Florida Atlantic"
+    }
+  ]
+}
+~~~
