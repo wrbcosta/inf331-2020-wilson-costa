@@ -12,9 +12,9 @@
 
 # Tarefa 4
 
-## Serviço `ODWeather`
+## Serviço `1`
 
-* **Título do serviço**: `getWeatherDisplay`
+* **Título do serviço**: `ODWeather`
 * **Breve descrição**:
   > API que retorna dados sobre o clima , em um dado período de tempo, em uma estação geográfica específica. Os dados sobre o clima incluem, por exemplo, temperatura, velocidade e direção do vento, umidade e pressão.
 * **URL completa da requisição**: `https://any-api.com:8443/http://api.oceandrivers.com/v1.0/getWeatherDisplay/cnarenal/?period=latestday`
@@ -318,9 +318,9 @@ x-request-url: http://api.oceandrivers.com/v1.0/getWeatherDisplay/cnarenal/?peri
 }
 ~~~
 
-### Serviço `College Football Data`
+### Serviço `2`
 
-* **Título do serviço**: `getTeamMatchup`
+* **Título do serviço**: `College Football Data`
 * **Breve descrição**:
   > API que retorna dados sobre jogos entre dois times de futebol americano universitário, ocorridos em um período definido por um ano mínimo e um ano máximo. Entre os dados retornados estão o nome do estádio em que o jogo ocorreu, a data do jogo e a pontuação dos dois times.
 * **URL completa da requisição**: `https://any-api.com:8443/https://api.collegefootballdata.com/teams/matchup?team1=Florida%20Atlantic&team2=Florida%20International&minYear=2018&maxYear=2019`
