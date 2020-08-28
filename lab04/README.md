@@ -322,7 +322,7 @@ x-request-url: http://api.oceandrivers.com/v1.0/getWeatherDisplay/cnarenal/?peri
 
 * **Título do serviço**: `getTeamMatchup`
 * **Breve descrição**:
-  > Retorna dados sobre jogos entre dois times de futebol americano universitário, ocorridos em um período definido por um ano mínimo e um ano máximo.
+  > API que retorna dados sobre jogos entre dois times de futebol americano universitário, ocorridos em um período definido por um ano mínimo e um ano máximo. Entre os dados retornados estão o nome do estádio em que o jogo ocorreu, a data do jogo e a pontuação dos dois times.
 * **URL completa da requisição**: `https://any-api.com:8443/https://api.collegefootballdata.com/teams/matchup?team1=Florida%20Atlantic&team2=Florida%20International&minYear=2018&maxYear=2019`
 * **Cabeçalho HTTP da chamada**:
 ~~~http
